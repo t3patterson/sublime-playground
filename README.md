@@ -80,8 +80,8 @@
 |-------------------------|  --------------------------------------------   |
 |  Emmet                  | HTML /CSS keyboard shortcuts                    |
 |  Sidebar Enhancements   | More options from the sidebar                   | 
-|   BufferScroll          | for maintaining editor state btw sessions<br/>
-                            remembers code folds, cursor position, pane layout, etc.                                    |
+|   BufferScroll          | for maintaining editor state btw sessions <br/>                            remembers code folds, cursor position, </br>
+                            pane layout etc.                               |
 |   MarkdownTOC           | useful visual aid for matching brackets         |
 |  Git                    | for checking out your changes since last commit |
 
