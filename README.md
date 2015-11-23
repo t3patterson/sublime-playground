@@ -1,6 +1,5 @@
 #Sublime Config / Walkthrough
 
-
 ####0. Misc Resources
  - [Keyboard Shortcuts](./keyboard-shortcuts.md)
  - [Pro Tips](./protips.md)
@@ -8,6 +7,7 @@
 ####1. Install sublime.
 
   Get your copy here: http://www.sublimetext.com/
+  You can pay for it, or not. If you don't pay, it will keep asking you to purchase.
 
 ####2. Set up launch from command line
   You want to be able to launch sublime from your terminal.
@@ -22,7 +22,7 @@
 
   you can customize user settings in as a JSON object:
 
-  `Sublime Text  >  Preferences  >  Settings - User`
+  `Sublime Text  ->  Preferences  ->  Settings - User`
 
   (the file name will be: `Preferences.sublime-settings –– User`)
 
@@ -61,15 +61,15 @@
 ####5. Install Some Useful Packages
   See the selection of registered packages: `SHIFT` + `⌘` + `P`  and type *install package*
   
-  #####Presentation/Visual
-    1. Origami  -  For maximizing screen real estate
-    2. Pretty JSON
-    3. HTML-CSS-JS Prettify
-    4. CSS3 - Proper syntax highlighting for CSS
-    5. Bracket Highlighter - useful visual aid for matching brackets
-    6. MarkdownEditing
+  ##### Presentation/Visual
+  1. Origami  -  For maximizing screen real estate
+  2. Pretty JSON - organize json 
+  3. HTML-CSS-JS Prettify
+  4. CSS3 - Proper syntax highlighting for CSS
+  5. Bracket Highlighter - useful visual aid for matching brackets
+  6. MarkdownEditing
    
-  #####Utility
+  ##### Utility
   1. Git - for checking out your changes since last commit
   2. Emmet - HTML shortcuts
   3. Sidebar Enhancements
@@ -81,7 +81,7 @@
     
   - Color schemes are located in `/Packages/Color Scheme - Default`  
   
-  - Install color schemes through package control.
+  - Install color schemes through Package Control.
   
   - For Syntax specific highlighting.  
     `Preferences  ->  Settings - More  ->  Syntax Specific - User`
@@ -94,7 +94,7 @@
       }
     ```
 
-  - *Tip*: **ColorSchemeSelector** package will let you modify color schemes from command palette.
+  - *Tip*: **ColorSchemeSelector** package will let you modify color schemes from the command palette.
     - Once installed, just `SHIFT` + `⌘` + `P` to get command pallette and type in 'ColorSchemeSelector: Select Color Scheme' to cycle through all the schemes
   
 

@@ -4,7 +4,7 @@
 |-------------------------|  :-----------------: |
 |  Quick Navigation       | `⌘` + `P`            |
 |  Command Palette:       | `SHIFT` + `⌘` + `P`  |
-|  Sublime Console:       | `^` + `\``           |
+|  Sublime Console:       | `^` + ```           |
 |   Switch Project        | `^` + `⌘` + `P`      |
 |   Search for text chunk | `⌘` + `R`            |
 |   Code Folding          |`⌘` +  `⌥` + `[`      |
@@ -12,7 +12,7 @@
 
 
 
-##Shortcuts for Panes
+##Shortcuts for Managing Panes
 
 |  Shortcut Type          |     Keys             |
 |-------------------------|  :-----------------: |
@@ -20,7 +20,7 @@
 |  One Pane               | `⌘` + `⌥` + `1`      |
 |  4x4 Grid               | `⌘` + `⌥` + `5`      |
 
-###Origami Shorcuts (Panes++)
+###Origami Shorcuts (like Panes++)
 
 |  Shortcut Type          |     Keys             |
 |-------------------------|  :-----------------: |
