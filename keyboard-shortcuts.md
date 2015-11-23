@@ -16,11 +16,12 @@
 
 |  Shortcut Type          |     Keys             |
 |-------------------------|  :-----------------: |
-|  Two Panes, Vertical    | `⌘` + `⌥` + `2`      |
+|  Two Vertical Panes     | `⌘` + `⌥` + `2`      |
+|  Two Horizontal Panes   | `⇧` + `⌘` + `⌥` + `2`|
 |  One Pane               | `⌘` + `⌥` + `1`      |
 |  4x4 Grid               | `⌘` + `⌥` + `5`      |
 
-- #### Origami Shorcuts (like Panes++)
+####Origami Shorcuts (like Panes++)
 - *Note: you must install 'Origami' package through Package Control*
 - Origami shortcuts start with `⌘` + `K`
   
