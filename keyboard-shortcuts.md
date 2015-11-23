@@ -4,7 +4,7 @@
 |-------------------------|  :-----------------: |
 |  Quick Navigation       | `⌘` + `P`            |
 |  Command Palette:       | `SHIFT` + `⌘` + `P`  |
-|  Sublime Console:       | `^` + ```           |
+|  Sublime Console:       | `^` + `` ` ``           |
 |   Switch Project        | `^` + `⌘` + `P`      |
 |   Search for text chunk | `⌘` + `R`            |
 |   Code Folding          |`⌘` +  `⌥` + `[`      |
