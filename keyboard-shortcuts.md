@@ -23,12 +23,12 @@
 ####Origami Shorcuts (like Panes++)
 - *Note: you must install 'Origami' package through Package Control*
 - Origami shortcuts start with `⌘` + `K`
-
-|  Shortcut Type          |     Keys                                  |
-|-------------------------|  :------------------------------:         |
-|  Add a pane             | `⌘` + `K` , `⌘` + `←`|`↑`|`→`|`↓`         |
-|  Destroy a pane         | `⌘` + `K` , `⇧` + `⌘` + `←`|`↑`|`→`|`↓`   |
-|  Clone a file to apane  | `⌘` + `K` , `⌥` + `←`|`↑`|`→`|`↓`         |
+  
+  |  Shortcut Type          |     Keys                                  |
+  |-------------------------|  :------------------------------:         |
+  |  Add a pane             | `⌘` + `K` , `⌘` + `←`|`↑`|`→`|`↓`         |
+  |  Destroy a pane         | `⌘` + `K` , `⇧` + `⌘` + `←`|`↑`|`→`|`↓`   |
+  |  Clone a file to apane  | `⌘` + `K` , `⌥` + `←`|`↑`|`→`|`↓`         |
 
 
 
