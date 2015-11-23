@@ -20,7 +20,7 @@
 |  One Pane               | `⌘` + `⌥` + `1`      |
 |  4x4 Grid               | `⌘` + `⌥` + `5`      |
 
-####Origami Shorcuts (like Panes++)
+- #### Origami Shorcuts (like Panes++)
 - *Note: you must install 'Origami' package through Package Control*
 - Origami shortcuts start with `⌘` + `K`
   
