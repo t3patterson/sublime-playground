@@ -59,17 +59,42 @@
     - ...etc
 
 ####5. Install Some Useful Packages
+  See the selection of registered packages: `SHIFT` + `⌘` + `P`  and type *install package*
+  
   #####Presentation/Visual
-  1. Origami  -  For maximizing screen real estate
-  2. Pretty JSON
-  3. HTML-CSS-JS Prettify
-  4. CSS3 - Proper syntax highlighting for CSS
-  5. Bracket Highlighter - useful visual aid for matching brackets
-  6. MarkdownEditing
-
+    1. Origami  -  For maximizing screen real estate
+    2. Pretty JSON
+    3. HTML-CSS-JS Prettify
+    4. CSS3 - Proper syntax highlighting for CSS
+    5. Bracket Highlighter - useful visual aid for matching brackets
+    6. MarkdownEditing
+   
   #####Utility
-  1. Git - for checking out your ish
+  1. Git - for checking out your changes since last commit
   2. Emmet - HTML shortcuts
   3. Sidebar Enhancements
   4. BufferScroll - for maintaining editor state btw sessions
   5. MarkdownTOC - generating a MarkdownTOC for your entire documentP
+
+####6. Create Color Themes
+  - You can see the list of themes located in  `Preferences -> Color Scheme`
+    
+  - Color schemes are located in `/Packages/Color Scheme - Default`  
+  
+  - Install color schemes through package control.
+  
+  - For Syntax specific highlighting.  
+    `Preferences  ->  Settings - More  ->  Syntax Specific - User`
+      
+    Example in `CSS.sublime-settings` file
+    ```
+      {
+        extensions: ["css", "scss"]
+        "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme"
+      }
+    ```
+
+  - *Tip*: **ColorSchemeSelector** package will let you modify color schemes from command palette.
+    - Once installed, just `SHIFT` + `⌘` + `P` to get command pallette and type in 'ColorSchemeSelector: Select Color Scheme' to cycle through all the schemes
+  
+
