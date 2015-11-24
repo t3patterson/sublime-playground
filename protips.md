@@ -1,6 +1,6 @@
 ##Miscellaneous protips
 
-###Snippets
+###1. Snippets
 Snippets let you autocomplete large blocks of text by typing a word, then typing the tab. 
 
 #####Some Examples
@@ -11,7 +11,7 @@ Snippets let you autocomplete large blocks of text by typing a word, then typing
 - In `.js` file
   - *fun*, `tab` : creates a function that you can then tab through to fill out the relevant portions (function-name, function-parameters, function-body)
 
-####Get some snippets
+#####Get some snippets
 Go to the command palette (`⇧` + `⌘` + `P`) and search for snippets through Package Control.
 
 Example: 
@@ -19,7 +19,7 @@ Example:
 ![snippets](./images/snippet.png)
 
 
-####Create your own snippet
+#####Create your own snippet
 
 Sublime has some useful snippets out of the box, and you can also create your own. Snippets use XML syntax.
 
@@ -52,6 +52,7 @@ ${1:myArr}.forEach(function(${2:args}){
 **Saving**
 - save the file as `«snippet-name».sublime-snippet`
 
-**Access**  
+**Access**
+- inside the relevant file-type, type the tab-trigger-word (for instance *foreach*) and hit tab. 
 
 
