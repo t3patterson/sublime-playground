@@ -4,43 +4,32 @@
  - [Keyboard Shortcuts](./keyboard-shortcuts.md)
  - [Pro Tips](./protips.md)
 
-####1. Install sublime.
+###Packages Installed & Examined
 
-  Get your copy here: http://www.sublimetext.com/
-  You can pay for it, or not. If you don't pay, it will keep asking you to purchase.
+#####Presentation/Visual
 
-####2. Set up launch from command line
-  You want to be able to launch sublime from your terminal.
+|  Package Name           |     Utility                                 |
+|-------------------------|  -----------------------                    |
+|  Origami                |  For maximizing screen real estate          |
+|  HTML-CSS-JS Prettify   | for proper indentation with `⇧` + `⌘` + `H` | 
+|   CSS3                  | Proper syntax highlighting for CSS          |
+|   Bracket Highlighter   | useful visual aid for matching brackets     |
+|   MarkdownEditing       | for markdown syntax highlighting            |
+|  Pretty JSON            | organized json presentation                  |
 
-  ```
-  $ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
-  ```
 
-  Confirm that it works by typing `sublime .` in your terminal and the application should open with files accessible from current directory.
+##### Utility
+|  Package Name           |     Utility                                    |
+|-------------------------|  --------------------------------------------   |
+|  Emmet                  | HTML /CSS keyboard shortcuts                    |
+|  Sidebar Enhancements   | More options from the sidebar                   | 
+|   BufferScroll          | for maintaining editor state btw sessions <br/>                            remembers code folds, cursor position, </br>                            pane layout etc.                                |
+|   MarkdownTOC           | useful visual aid for matching brackets         |
+|  Git                    | for checking out your changes since last commit |
 
-####3. Configure Editor Settings
-  Settings are configured in this file:  
-  `Sublime Text  ->  Preferences  ->  Settings - User`
-  
-  (the file name will be: `Preferences.sublime-settings –– User`)
-  
-  You can customize user settings as a JSON object. Here is my preferred initial configuration:
-  ```
-  {
-    "font_size": 15,
-    "font_face": "Menlo",
-    "tab_size": 2,
-    "translate_tabs_to_spaces": true
-  }
 
-  ```
 
-  You can see all of the configureable settings in the '——Default' settings file:  
-  `Sublime Text  ->  Preferences  ->  Settings - Default`
-
-  You can't change this file...all changes must be made in the `——User` settings file. 
-
-####4. Setup Package Control
+####1.Setup Package Control
   Sublime text supports addons/plugins/extensions, and we access these through a package manager called **Package Control**.
 
   Package Control requires a one-time install. Here are the directions to complete the installation:
@@ -57,32 +46,8 @@
       - ...etc
     - If not working, quit editor and restart
 
-####5. Install Some Useful Packages
-  See the selection of registered packages: Go to command palette(`⇧` + `⌘` + `P`) and type *install package*
-
-  It should auto complete to *Package Control: Install Package*
+####2. 
   
-#####Presentation/Visual
-
-|  Package Name           |     Utility                                 |
-|-------------------------|  -----------------------                    |
-|  Origami                |  For maximizing screen real estate          |
-|  Pretty JSON            | organized json presentation                  |
-|  HTML-CSS-JS Prettify   | for proper indentation with `⇧` + `⌘` + `H` | 
-|   CSS3                  | Proper syntax highlighting for CSS          |
-|   Bracket Highlighter   | useful visual aid for matching brackets     |
-|   MarkdownEditing       | for markdown syntax highlighting            |
-
-
- 
-##### Utility
-|  Package Name           |     Utility                                    |
-|-------------------------|  --------------------------------------------   |
-|  Emmet                  | HTML /CSS keyboard shortcuts                    |
-|  Sidebar Enhancements   | More options from the sidebar                   | 
-|   BufferScroll          | for maintaining editor state btw sessions <br/>                            remembers code folds, cursor position, </br>                            pane layout etc.                                |
-|   MarkdownTOC           | useful visual aid for matching brackets         |
-|  Git                    | for checking out your changes since last commit |
 
 ####6. Create Color Themes
   - You can see the list of themes located in  `Preferences -> Color Scheme`
