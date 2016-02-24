@@ -1,32 +1,22 @@
-#Sublime Config / Walkthrough
+#Sublime Playground Tutorial
 
-####0. Misc Resources
- - [Keyboard Shortcuts](./keyboard-shortcuts.md)
- - [Pro Tips](./protips.md)
+Point of this repo is to use the files posted here as a demo site in the context of exploring sublime packages. The site is broken as-is but we will fix it as we explore of features of the packages listed below.
 
 ###Packages Installed & Examined
-
-#####Presentation/Visual
 
 |  Package Name           |     Utility                                 |
 |-------------------------|  -----------------------                    |
 |  Origami                |  For maximizing screen real estate          |
+|  Autofilename           |  For completing filenames in local directories |
 |  HTML-CSS-JS Prettify   | for proper indentation with `⇧` + `⌘` + `H` | 
-|   CSS3                  | Proper syntax highlighting for CSS          |
+|   ColorHighlighter      | Show hex/rgba colorhighlighting for CSS     |
+|   CSS3                  | Proper syntax highlighting for CSS3          |
 |   Bracket Highlighter   | useful visual aid for matching brackets     |
-|   MarkdownEditing       | for markdown syntax highlighting            |
-|  Pretty JSON            | organized json presentation                  |
-
-
-##### Utility
-|  Package Name           |     Utility                                    |
-|-------------------------|  --------------------------------------------   |
-|  Emmet                  | HTML /CSS keyboard shortcuts                    |
 |  Sidebar Enhancements   | More options from the sidebar                   | 
 |   BufferScroll          | for maintaining editor state btw sessions <br/>                            remembers code folds, cursor position, </br>                            pane layout etc.                                |
-|   MarkdownTOC           | useful visual aid for matching brackets         |
-|  Git                    | for checking out your changes since last commit |
 
+####0. Setup the demo folders and files files
+[Clone the repo](https://github.com/t3patterson/sublime-playground-tutorial-part1)
 
 
 ####1.Setup Package Control
@@ -45,29 +35,4 @@
       - *Package Control: Disable Package*
       - ...etc
     - If not working, quit editor and restart
-
-####2. 
-  
-
-####6. Create Color Themes
-  - You can see the list of themes located in  `Preferences -> Color Scheme`
-    
-  - Color schemes are located in `/Packages/Color Scheme –– Default`  
-  
-  - Install color schemes through Package Control.
-  
-  - For Syntax specific highlighting.  
-    `Preferences  ->  Settings - More  ->  Syntax Specific –– User`
-      
-    Example in `CSS.sublime-settings` file
-    ```
-      {
-        extensions: ["css", "scss"],
-        "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme"
-      }
-    ```
-
-  - *Tip*: **ColorSchemeSelector** package will let you modify color schemes from the command palette.
-    - Once installed, just `⇧` + `⌘` + `P` to get command palette and type in 'ColorSchemeSelector: Select Color Scheme' to cycle through all the schemes
-  
 
